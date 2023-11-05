@@ -1,7 +1,7 @@
 import { connectToDatabase } from "./api/db";
 import axios from "axios";
 import { useEffect, useState } from 'react';
-import jsonData from '../../data.json'
+import jsonData from '../data.json'
 
 export default function PrintData({ data }) {
 

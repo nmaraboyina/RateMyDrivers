@@ -296,7 +296,7 @@ data = {
     "coount": count
 }
 
-with open('data.json', 'w') as file:
+with open('my-next-app/data.json', 'w') as file:
     json.dump(data, file)
 
 
